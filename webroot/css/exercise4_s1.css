@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(17, 14, 138);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: rgb(151, 86, 0);
+    
+}
+
+header, section, footer{
+    margin: 5%;
+}
+section{
+    background-color: white;
+}
+
+article{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    margin-left: 1cm;
+}
+/*START of hgroup and h's*/
+hgroup{
+    background-color: rgb(190, 190, 190);
+    
+}
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 1%;
+
+}
+
+h3 a:hover{
+    color: inherit;
+}
+/*END of hgroup and h's*/
+
+/*START of image related css*/
+
+img{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+}
+figure{
+    padding: 1% 5% 2% 5%;
+}
+figcaption{
+    background-color: aquamarine;
+    padding: 1%;
+
+}
+
+/*END of image related css*/
+
+/*START of links*/
+a:link{
+    color: rgb(41, 66, 2);
+}
+
+a:visited{
+    color: rgb(0, 38, 255);
+}
+
+a:hover{
+    color: rgb(139, 199, 42);
+}
+/*END of links*/
+p{
+    padding: 1%;
+}
+.index{
+    background-color: chartreuse;
+}
+
